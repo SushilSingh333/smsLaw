@@ -328,6 +328,5 @@
 
     // ===== Init =====
     populateStates();
-    handleSubmit(document.getElementById('heroForm'), 'heroFormSuccess');
-    handleSubmit(document.getElementById('modalForm'), 'modalFormSuccess');
+    // Form submission is handled in form.js (posts to CRM).
 })();
