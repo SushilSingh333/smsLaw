@@ -40,7 +40,7 @@
     --radius-lg: 24px;
     --radius-xl: 32px;
 
-    --font-display: 'Playfair Display', 'Georgia', serif;
+    --font-display: 'Poppins', 'Segoe UI', system-ui, sans-serif;
     --font-body: 'Poppins', 'Segoe UI', system-ui, sans-serif;
 
     --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -72,8 +72,8 @@ ul { list-style: none; }
 
 .text-accent {
     color: var(--color-accent);
-    font-style: italic;
-    font-family: var(--font-display);
+    font-style: normal;
+    font-family: var(--font-body);
 }
 
 .text-center { text-align: center; }
@@ -535,7 +535,7 @@ p { color: var(--color-text-soft); }
 
 .hero-title .text-accent {
     color: var(--color-accent);
-    font-style: italic;
+    font-style: normal;
     position: relative;
     display: inline-block;
 }
