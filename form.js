@@ -9,7 +9,7 @@ let isFormDirty = false;
 // Course → CRM Center ID
 // NOTE: confirm this ID with the CRM admin for "BA LLB" lead routing.
 const courseToCenterId = {
-  "BA LLB": 1
+  "BA LLB": 54
 };
 
 const PROJECT_NAME = "SMS Law College Varanasi - BA LLB Admissions 2026-27";
