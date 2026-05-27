@@ -1648,8 +1648,8 @@ p { color: var(--color-text-soft); }
 
 .footer-grid {
     display: grid;
-    grid-template-columns: 1.6fr 1fr 1fr 1.4fr;
-    gap: 40px;
+    grid-template-columns: 1.8fr 1fr 1.4fr;
+    gap: 50px;
     margin-bottom: 50px;
 }
 
