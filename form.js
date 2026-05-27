@@ -101,7 +101,7 @@ function handleFormSubmit(formId) {
 
     const payload = {
       page_url: window.location.href,
-      project_name: PROJECT_NAME,
+      project_name: "SMS Law College",
       form_name: name,
       form_mobile: phone,
       form_email: email,

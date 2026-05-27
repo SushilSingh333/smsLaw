@@ -1719,7 +1719,41 @@ p { color: var(--color-text-soft); }
     margin-top: 4px;
 }
 
+.footer-disclaimer {
+    margin-top: 8px;
+    padding: 20px 22px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-left: 3px solid var(--color-accent);
+    border-radius: 10px;
+}
+
+.footer-disclaimer h6 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 0 8px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+}
+
+.footer-disclaimer h6 i {
+    font-size: 0.85rem;
+}
+
+.footer-disclaimer p {
+    margin: 0;
+    font-size: 0.8rem;
+    line-height: 1.65;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: justify;
+}
+
 .footer-bottom {
+    margin-top: 28px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding-top: 24px;
     display: flex;
